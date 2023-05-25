@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: 'Stalinist One', cursive;
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 600px;
+  height: 5rem;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+/* .navbar .links {
+  margin-left: auto;
+} */
+.navbar a {
+  /* margin-left: 16px; */
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center;
+  text-align: center; */
+}
